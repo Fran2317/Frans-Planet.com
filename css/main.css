@@ -1,0 +1,113 @@
+.wrapper {
+    display: grid;
+    grid-template-areas:
+      "header header header"
+      "main main main"
+      "main main main"
+      "footer footer footer"
+    ;
+  
+  }
+  
+  .header {grid-area:header;font-family:monospace;font-size:30px;background-color:#F2D2BD;border: 5px;border-style:solid;margin:auto;margin-bottom:10px;
+  
+  }
+  
+  .main {grid-area:main;
+  
+  
+  
+  }
+  .featured-articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+   
+  .article-cards {
+    min-height: calc(100vh - 300px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+  
+  .footer {grid-area:footer;
+  
+    
+  }
+  .card {
+    min-height: 35rem;
+    max-width: 23rem; cursor:pointer;
+    transition:all .4s ease-in-out;
+  }
+  .card:hover{
+    transform:scale(1.05);
+  }
+  
+  .card-body {background-color:#F2D2BD;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+   
+  #img1, #img2, #img3 {
+    height: 228.42px;
+  }
+  .footer__content {
+    width: 100%;
+    padding-block: 1.5rem;
+    font-weight: bold;
+    align-items:bottom;
+    text-align:right;
+  }
+  
+  p {
+    padding-bottom: 200px;font-family: cursive;text-indent: 50px;
+  }
+  body{background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1746&q=80);
+    background-size:cover;
+  }
+  table td {background-color:#F2D2BD; border: 5px;border-style:solid;
+    
+  }
+  h1{font-family:monospace;font-size:30px;background-color:#F2D2BD;border: 5px;border-style:solid;margin:auto;
+    
+  }
+  h4{font-family:monospace;font-size:20px
+    
+  }
+  h2{border-style:hidden;font-family:monospace;font-size:30px;background-color:#F2D2BD;margin:auto;border-bottom-style:hidden;
+    
+  }
+  form{font-family:monospace;font-size:30px;background-color:#F2D2BD;border:5px;border-style:solid;text-align:center;margin:auto;
+   
+  }
+  
+  div{text-align:center;
+  }
+  
+  .modal{font-size:20px;
+    
+  }
+  .modal-header{background-color:#eab592;}
+  
+  a{padding-left:20px;padding-right:20px;border:5px;border-style:dotted; transition:all}
+  
+  a:hover{transform:scale(1.05);}
+  
+  .card-text{text-indent:0px;}
+  
+  .logos{
+    max-height:150px;
+    max-width:150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition:all .4s ease-in-out;
+  }
+  .logos:hover{transform:scale(1.05);}
+  
+  .no-border{border:none;padding:0px;}
+  
+  
